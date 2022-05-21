@@ -16,8 +16,7 @@ nav ul li a{
 nav ul li a:hover{
     color: gray;
 }
-.social-links img{
-    height:20px;
+.social-links svg{
     margin: 15px;
     cursor: pointer;
 }
