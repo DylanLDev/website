@@ -35,59 +35,8 @@ nav ul li a:hover{
     display: block;
 }
 
-.Containers{
-    display: none;
-}
-
-.Carousel{
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
- .backbtn, .fwdbtn{
-     font-size: 14pt;
-     border: 0px;
- }
-.back:hover, .forward:hover{
-    cursor: pointer;
-}
-
-.Info{
-    color: #e3e3e3;
-    font-size: 16px;
-    padding: 10px 14px;
+#dynmap {
     position: absolute;
-    bottom: 10px;
+    align-items: center;
     width: 100%;
-    text-align: center;
-    z-index: -1;
-}
-
-.MessageInfo {
-    color: #f2f2f3;
-    font-size: 14px;
-    padding: 10px 14px;
-    position: absolute;
-    top: 0;
-  }
-
- .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.4s;
-    animation-name: fade;
-    animation-duration: 1.4s;
- }
-
- @-webkit-keyframes fade {
-    from {opacity: .5}
-    to {opacity: 2}
-  }
-  
-  @keyframes fade {
-    from {opacity: .5}
-    to {opacity: 2}
-  }
-
-@media screen and (max-width:400px) {
-    
 }
